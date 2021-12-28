@@ -1,0 +1,65 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" manifestVersion="1.0" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:co.v2="urn:schemas-microsoft-com:clickonce.v2">
+  <asmv1:assemblyIdentity name="KOFIDIS_4665.exe" version="1.0.0.0" publicKeyToken="05b8f657462fa47e" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="KOFIDIS_4665" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+    <commandLine file="KOFIDIS_4665.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!--
+          UAC Manifest Options
+          If you want to change the Windows User Account Control level replace the 
+          requestedExecutionLevel node with one of the following.
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+         If you want to utilize File and Registry Virtualization for backward 
+         compatibility then delete the requestedExecutionLevel node.
+    -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="5" minorVersion="1" buildNumber="2600" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="4.0.30319.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="KOFIDIS_4665.exe" size="279040">
+      <assemblyIdentity name="KOFIDIS_4665" version="1.0.0.0" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>iykNf3P9Jo07t7KzoWFzPqpITss=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+  <file name="KOFIDIS_4665.exe.config" size="436">
+    <hash>
+      <dsig:Transforms>
+        <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+      </dsig:Transforms>
+      <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+      <dsig:DigestValue>Nxct8djRXhm6eSwTOayGxmCTPEE=</dsig:DigestValue>
+    </hash>
+  </file>
+<publisherIdentity name="CN=LAPTOP-KNGSTHV4\gogok" issuerKeyHash="407e9edb5c3b31c0483e32490e00b763835a4d98" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>8IMXYuyG7TDOXa2IP5KtXdyR2BI=</DigestValue></Reference></SignedInfo><SignatureValue>EmaL6TJqx3uBc1nUBRSzZMP7ZkGz0tlWdiwqLTHKlqV2oDnX4u/2K1GHvykwQz/RLm1DhfR/kOqFk0371/oLQoiToNsQsx9YsCtSzz9ivPcwAKg9p+kRAEoVGEMNcV2DOY1MlXqij2JjiOYeAIzFhxVNzFWhCim/Sw5ZKbIs6zw=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>zOLusigLYa48euDWT8R+uk4x54CEKIpQ5KHZPI92fZHTPGbN+SRj+QLpK7+mMCCR9x3xS23oQiirGJkzo0Owjc5zTYRen1fxQzHuJBogSSEhLzRf4JGCx06d/W9kufRAbvH2weuLcZpbvcFjCgfz1ZN5ObaGCkZLzIiKMvQYXdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="12d891dc5dad923f88ad5dce30ed86ec621783f0" Description="" Url=""><as:assemblyIdentity name="KOFIDIS_4665.exe" version="1.0.0.0" publicKeyToken="05b8f657462fa47e" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=LAPTOP-KNGSTHV4\gogok</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>4tcsV3MgFjKMZL7fxyTmfnshs9U=</DigestValue></Reference></SignedInfo><SignatureValue>vfXq7u4WH9/7tcZrxUx44ZdvYmzqq89w2D1y6k+9pW31rhvzzIio4ym35576ZAnJRz3/tifnBBi4vr2rmCB+CTrgxchF0wXLppsCj8h+NhZ49X8PxFXyNFcAO39cjk1G97MYZ3MJ6aqaiUYDCFf+k7cakYCIs349jv8lcgffN1c=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>zOLusigLYa48euDWT8R+uk4x54CEKIpQ5KHZPI92fZHTPGbN+SRj+QLpK7+mMCCR9x3xS23oQiirGJkzo0Owjc5zTYRen1fxQzHuJBogSSEhLzRf4JGCx06d/W9kufRAbvH2weuLcZpbvcFjCgfz1ZN5ObaGCkZLzIiKMvQYXdk=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB7TCCAVagAwIBAgIQRxieKp/QpbJNLmCNXv65sjANBgkqhkiG9w0BAQUFADA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAE4ARwBTAFQASABWADQAXABnAG8AZwBvAGswHhcNMjExMjI0MTU0NjA1WhcNMjIxMjI0MjE0NjA1WjA1MTMwMQYDVQQDHioATABBAFAAVABPAFAALQBLAE4ARwBTAFQASABWADQAXABnAG8AZwBvAGswgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBAMzi7rIoC2GuPHrg1k/EfrpOMeeAhCiKUOSh2TyPdn2R0zxmzfkkY/kC6Su/pjAgkfcd8Utt6EIoqxiZM6NDsI3Oc02EXp9X8UMx7iQaIEkhIS80X+CRgsdOnf1vZLn0QG7x9sHri3GaW73BYwoH89WTeTm2hgpGS8yIijL0GF3ZAgMBAAEwDQYJKoZIhvcNAQEFBQADgYEAdKnLc8+qdwNfEmR1AQn+aQPR0Kw0Y+pWXGQoT2D1MeLS6YnB3hiQIkDRIg8txfzOP14N1iScUymbJyBcoULKglf8imlHAbM0ZL4Cy43FuQ4qR8Mwbv4mQzfUk2Fb6jo28SogGohCWPirhIr7vWDDqjkDbqdXHtKsm98fjO5Gaqc=</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

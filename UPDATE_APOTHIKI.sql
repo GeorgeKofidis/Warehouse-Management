@@ -1,0 +1,1 @@
+UPDATE APOTHIKI SET FOTO = 'C:\Projects\SQLSERVER\Project\Photo_Apothiki\notebook.jpg' WHERE KE = '1';
